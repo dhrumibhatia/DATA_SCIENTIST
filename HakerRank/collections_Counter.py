@@ -8,7 +8,6 @@ req = [tuple(map(int,input().split())) for i in range(q)]
 avil = {}
 for q0,q1 in req:
     avil.setdefault(q0,[]).append(q1)
-
 target = []
 tracker = Counter()
 
